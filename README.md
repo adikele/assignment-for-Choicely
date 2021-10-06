@@ -13,8 +13,8 @@ Program uses PostgreSQL 13.0
 Endpoints:
 
 GET Endpoint: /load/<string:key>
-Returns: A number 
-Example Resource URL: http://127.0.0.1:5000/load?text=i4
+Returns: A number   
+Example Resource URL: http://127.0.0.1:5000/load?text=i4     
 Example Response:1000
 Parameters
 Name: text
@@ -22,7 +22,7 @@ Description: A string
 Required: yes
 Default: none
 
-POST Endpoint: /save/“key”: ”<string:key>”,“value”: <number>
+POST Endpoint: /save/“key”: ”<string:key>”,“value”: <number>  
 Example Resource URL: http://127.0.0.1:5000/save?key=v&value=100
 
 NOTES:
